@@ -3,6 +3,9 @@
   "version": "1.5.2",
   "description": "A library for sending BLE commands to a Parrot Rolling Spider drone",
   "main": "index.js",
+  "browser": {
+    "./lib/get-noble.js": "./lib/get-noble-web.js"
+  },
   "keywords": [
     "bluetooth",
     "ble",
@@ -39,7 +42,7 @@
   "dependencies": {
     "debug": "^2.1.1",
     "lodash": "3.9.3",
-    "noble": "^1.1.0"
+    "noble": "monteslu/noble"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.11.2",
