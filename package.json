@@ -42,7 +42,7 @@
   "dependencies": {
     "debug": "^2.1.1",
     "lodash": "3.9.3",
-    "noble": "monteslu/noble"
+    "noble": "github:monteslu/noble"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.11.2",
